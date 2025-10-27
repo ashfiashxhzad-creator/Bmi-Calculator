@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/medicines-medical-supplies-placed-blue.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Comfortaa", sans-serif;
+
+
+}
+
+.bmi-box {
+    background: linear-gradient(135deg, #0b6998, #8dd0eb);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 500px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+}
+
+
+.bmi-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 25px rgba(4, 42, 65, 0.884);
+}
+
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    font-family: "Comfortaa", sans-serif;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #0d4568;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Comfortaa", sans-serif;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #7ebcf9, #04597e);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+
+button:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Comfortaa", sans-serif;
+}
